@@ -1,0 +1,184 @@
+/* 공통 */
+
+@font-face {
+    font-family: 'NotoSans-Light';
+    src: url("../fonts/NotoSansKR-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'NotoSans-Regular';
+    src: url("../fonts/NotoSansKR-Regular.otf") format("opentype");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'NotoSans-Regular';
+    color: #393939;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.wrap {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+
+.space {
+    clear: both;
+}
+
+.inner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+body {
+    overflow-x: hidden
+}
+
+
+/* 헤더 */
+#header {
+    width: 100%;
+    height: 90px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding-top: 40px;
+}
+
+#header>.inner {
+    position: relative;
+}
+
+.menu {
+    width: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.menu li {
+    float: left;
+    font-size: 16px;
+    padding-right: 23px;
+    padding-left: 23px;
+}
+
+.ban {
+    width: 100px;
+    float: right;
+    padding-top: 40px;
+}
+
+.ban>li {
+    float: left;
+    color: #4ac260;
+    padding-right: 5px;
+}
+
+
+
+/* 메인 */
+#main {
+    width: 100%;
+    height: 960px;
+    position: relative;
+}
+
+.back {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    background-image: url(../img/back_gr.png);
+    top: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main {
+    width: 1404px;
+    height: 805px;
+    position: absolute;
+    background-image: url(../img/main.png);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 70px;
+}
+
+.prev {
+    position: absolute;
+    width: 50px;
+    height: 65px;
+    left: 0;
+    top: 345px
+}
+
+.next {
+    position: absolute;
+    width: 50px;
+    height: 65px;
+    right: 0;
+    top: 345px
+}
+
+
+/* 컨텐츠 */
+.box1 {
+    width: 100%;
+    height: 550px;
+}
+
+.list {
+    width: 25%;
+    float: left;
+}
+
+.list>h3 {
+    font-size: 35px;
+}
+
+.list>p {
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+.list>img {
+    width: 325px;
+    padding-top: 38px;
+}
+
+.box2 {
+    width: 100%;
+    height: 240px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.box2_text {
+    float: left;
+    font-size: 27px;
+    padding-top: 88px;
+}
+.box2_text>span{color: #80be53}
+
+.box2_img{float: right; padding-top:44px; padding-right: 54px;}
+
+
+/* 푸터 */
+
+#footer {width: 100%; height: 110px; background-color: #dbdbdb;}
+.info {font-size: 14px; padding-top: 38px; color: #848484}
+.info>span {font-weight: bold;}
